@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background:#857e7c;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap: 40px;
+    padding: 20px;
+}
+
+.caixa {
+    background-color: #222; /* Caixa com fundo preto */
+    padding: 20px;
+    border-radius: 15px; /* Cantos arredondados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra sutil para destacar a caixa */
+    width: 100%;
+    max-width: 1200px; /* Ajuste a largura máxima da caixa conforme necessário */
+}
+
+.imagem {
+    background: #ffbd59;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.botao {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; /* Garante que todos os botões se estendam para preencher o contêiner */
+    gap: 15px;
+    margin-top: 20px;
+    width: 100%; /* Garante que o contêiner ocupe toda a largura disponível */
+}
+
+.botao button {
+    width: 100%; /* O botão ocupará toda a largura disponível do contêiner */
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ff5722;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.botao button:hover {
+    background-color: #e64a19;
+    transform: scale(1.05);
+}
+
+.descricao {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: left;
+}
+
+#nome_item {
+    color: #ffbb33;
+}
+
+#texto_item, #horario, #data {
+    color: rgb(205, 153, 94);
+}
+
+#horario {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#data {
+    margin-top: 10px; /* Dá um espaçamento para a data */
+    font-weight: bold; /* Deixa o texto em negrito */
+    color: rgb(205, 153, 94); /* Cor semelhante ao horário */
+}

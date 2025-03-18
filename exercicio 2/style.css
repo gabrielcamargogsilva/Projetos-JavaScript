@@ -1,0 +1,105 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilização do corpo */
+body {
+    background: #857e7c;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 1.1em;
+}
+
+/* Caixa principal */
+.box {
+    width: 90%;
+    max-width: 450px;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 15px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.6);
+}
+
+
+
+/* Título */
+h1 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #ffbb33;
+}
+
+/* Inputs */
+input {
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #ffbb33;
+    outline: none;
+}
+
+/* Botão */
+button {
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ff5722;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #e64a19;
+    transform: scale(1.05);
+}
+
+/* Resultado */
+#res {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffbb33;
+    margin-top: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 500px) {
+    .box {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    input {
+        font-size: 0.9em;
+    }
+
+    button {
+        font-size: 1em;
+    }
+}
