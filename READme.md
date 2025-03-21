@@ -11,6 +11,7 @@ Este projeto reúne diversas atividades propostas durante a aula de **JavaScript
 - [📌 Funcionalidades](#funcionalidades)
 - [🛠️ Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [📚 Aprendizados](#aprendizados)
+- [🌐 Acesse o Projeto](#acesse-o-projeto)
 - [👨‍💻 Autores](#autores)
 - [📜 Licença](#licença)
 
@@ -33,6 +34,11 @@ Durante o desenvolvimento deste projeto, foram aprofundados conhecimentos em:
 - 📌 Cálculos matemáticos e lógicos para aplicações empresariais
 - 📌 Criação de formulários interativos para entrada de dados
 - 📌 Estilização com **CSS** para uma interface amigável
+
+## 🌐 Acesse o Projeto
+Você pode acessar este projeto pelo GitHub Pages através do seguinte link:  
+
+🔗 [**Projeto no GitHub Pages**](https://gabrielcamargogsilva.github.io/Projetos-JavaScript/)
 
 ## 👨‍💻 Autores
 - **Gabriel Camargo** - [GitHub](https://github.com/gabrielcamargogsilva) - ✉️ gabriel.cgsilva.senai@gmail.com
